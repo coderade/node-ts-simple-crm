@@ -1,12 +1,23 @@
 {
-  "name": "node-simple-srm",
+  "name": "node-simple-crm",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple CRM project made in Node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Valdeci Gomes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10",
+    "nodemon": "^1.12.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
