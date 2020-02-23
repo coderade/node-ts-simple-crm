@@ -4,13 +4,15 @@
   "description": "Simple CRM project made in Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "keywords": [],
   "author": "Valdeci Gomes",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "dotenv": "^8.2.0",
     "express": "^4.15.4",
     "mongoose": "^4.11.10",
     "nodemon": "^1.12.0"
