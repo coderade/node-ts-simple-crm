@@ -1,4 +1,4 @@
-# node-simple-crm
+# node-es6-simple-crm
 
 Simple CRM developed in node.js for evaluating advantages and disadvantages between using ES6 and Typescript for node 
 projects.
@@ -39,7 +39,7 @@ To start we can use:
 If everything is ok, the console will show the following message:
 
 ```bash
-> node-simple-crm@1.0.0 start /home/coderade/repo/personal/studies/node-simple-crm
+> node-es6-simple-crm@1.0.0 start /home/coderade/repo/personal/studies/node-simple-crm
 > nodemon ./index.js --exec babel-node -e js
 
 [nodemon] 2.0.2
