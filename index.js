@@ -10,9 +10,7 @@ const app = express();
 
 // mongoose connection
 mongoose.Promise = global.Promise;
-mongoose.connect(MONGOOSE_URL, {
-    useMongoClient: true
-});
+mongoose.connect(MONGOOSE_URL, {useNewUrlParser: true, useUnifiedTopology: true});
 
 // bodyparser setup
 app.use(bodyParser.urlencoded({extended: true}));
