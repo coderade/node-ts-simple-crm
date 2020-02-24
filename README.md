@@ -19,10 +19,10 @@ Then, you can edit the Mongo `DB_USER`, the `DB_PASS`, `DB_NAME`,`DB_HOST` and r
 your data, like the following:
 
 ```bash
-MONGO_DB_USER=admin
-MONGO_DB_PASS=0Hq6H7Ax
-MONGO_DB_HOST=ds031812.mlab.com:31812
-MONGO_DB_NAME=nodejs-ts-app
+MONGO_DB_USER=user
+MONGO_DB_PASS=pass
+MONGO_DB_HOST=host.mlab.com:31812
+MONGO_DB_NAME=dbname
 PORT=3000
 ```
 
