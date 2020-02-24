@@ -1,5 +1,5 @@
 {
-  "name": "node-es6-simple-crm",
+  "name": "node-ts-simple-crm",
   "version": "1.0.0",
   "description": "Simple CRM project made in Node.js using ES6",
   "main": "index.js",

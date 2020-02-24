@@ -1,10 +1,12 @@
-# node-es6-simple-crm
+# node-ts-simple-crm
 
-Simple CRM developed in node.js for evaluating advantages and disadvantages between using ES6 and Typescript for node 
+Simple CRM developed in node.js/Typescript for evaluating advantages and disadvantages between using ES6 and Typescript for node 
 projects.
 
-This project is made using only ES6 and currently is a simple Contacts CRUD express server connecting to a 
+This project is made using only Typescript and currently is a simple Contacts CRUD express server connecting to a 
 Mongo database.
+
+Project cloned from my [node-es6-simple-crm](https://github.com/coderade/node-es6-simple-crm) project.
 
 ## Running
  
@@ -39,7 +41,7 @@ To start we can use:
 If everything is ok, the console will show the following message:
 
 ```bash
-> node-es6-simple-crm@1.0.0 start /home/coderade/repo/personal/studies/node-simple-crm
+> node-ts-simple-crm@1.0.0 start /home/coderade/repo/personal/studies/node-simple-crm
 > nodemon ./index.js --exec babel-node -e js
 
 [nodemon] 2.0.2
