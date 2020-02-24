@@ -3,7 +3,8 @@
 Simple CRM developed in node.js for evaluating advantages and disadvantages between using ES6 and Typescript for node 
 projects.
 
-This project is made using only ES6 and currently only is a simple express server connecting to a Mongo database.
+This project is made using only ES6 and currently is a simple Contacts CRUD express server connecting to a 
+Mongo database.
 
 ## Running
  

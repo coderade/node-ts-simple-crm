@@ -3,7 +3,7 @@ require('dotenv').config();
 import express from 'express';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
-
+import routes from './src/routes/crmRoutes';
 import {PORT, MONGOOSE_URL} from './config'
 
 const app = express();
@@ -16,6 +16,7 @@ mongoose.connect(MONGOOSE_URL, {useNewUrlParser: true, useUnifiedTopology: true}
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
+routes(app);
 
 // serving static files
 app.use(express.static('public'));
