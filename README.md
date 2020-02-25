@@ -41,14 +41,9 @@ To start we can use:
 If everything is ok, the console will show the following message:
 
 ```bash
-> node-ts-simple-crm@1.0.0 start /home/coderade/repo/personal/studies/node-simple-crm
-> nodemon ./index.js --exec babel-node -e js
+> node-ts-simple-crm@1.0.0 start /home/coderade/repo/personal/studies/node-ts-simple-crm
+> tsc && ts-node ./dist/index.js
 
-[nodemon] 2.0.2
-[nodemon] to restart at any time, enter `rs`
-[nodemon] watching dir(s): *.*
-[nodemon] watching extensions: js
-[nodemon] starting `babel-node ./index.js`
-your server is running on port 3000
+The server is running on port 3000
 
 ```
