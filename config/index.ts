@@ -1,4 +1,6 @@
-require('dotenv').config();
+import {config} from "dotenv";
+
+config();
 
 const env = process.env;
 
@@ -11,7 +13,7 @@ const PORT = env.PORT;
 
 const MONGOOSE_URL = `mongodb://${MONGO_DB_USER}:${MONGO_DB_PASS}@${MONGO_DB_HOST}/${MONGO_DB_NAME}`;
 
-module.exports = {
+export const settings = {
     MONGOOSE_URL : MONGOOSE_URL,
     PORT: PORT
 };
