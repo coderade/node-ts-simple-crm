@@ -44,6 +44,6 @@ If everything is ok, the console will show the following message:
 > node-ts-simple-crm@1.0.0 start /home/coderade/repo/personal/studies/node-ts-simple-crm
 > tsc && ts-node ./dist/index.js
 
-The server is running on port 3000
+Node and express server is running on port 3000
 
 ```
